@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script data-relyance-consent-appId="app-91a6722c-732f-5375-8ef8-e5194ac0817d" src="https://consent.app.relyancestage.xyz/relyance-agent.js"></script>  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+      /* Gradient from light blue (#87CEFA) to dark blue (#0B3D91) */
+      background: linear-gradient(135deg, #87CEFA 0%, #0B3D91 100%);
+      min-height: 100vh;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 80vh;
+      text-align: center;
+    }
+    .welcome-title {
+      font-size: 3em;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-top: 80px;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 1.5em;
+      color: #CFEFFD;
+      margin-bottom: 32px;
+    }
+    .logo {
+      width: 78px;
+      height: 78px;
+      background: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 28px auto;
+      font-size: 2.2em;
+      color: #0EA5E9;
+      box-shadow: 0 4px 24px #0003;
+    }
+    @media (max-width: 600px) {
+      .welcome-title {
+        font-size: 2rem;
+        margin-top: 40px;
+      }
+      .subtitle {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <script data-relyance-consent-appId="app-65870c7a-2886-573e-8f85-ad2c91d70e56" src="https://consent.app.relyancestage.xyz/relyance-agent.js"></script>
+  <div class="main-container">
+    <div class="logo">RAI</div>
+    <div class="welcome-title">Welcome to Relyance AI</div>
+    <div class="subtitle">
+      <a href="https://www.amazon.com" > https://consent3-vy2p.vercel.app/</a>    </div>
+  </div>
+  <script>
+    // Internal use only: tracking technologies by site with URLs
+    const trackingTechnologies = {
+      ebay: {
+        url: "https://www.ebay.com",
+        tech: [
+          "Google Analytics — traffic analysis",
+          "Facebook Pixel — retargeting and conversion",
+          "Adobe Analytics — user behavior",
+          "Oracle BlueKai — audience targeting"
+        ]
+      },
+      walmart: {
+        url: "https://www.walmart.com",
+        tech: [
+          "Google Tag Manager — tracking management",
+          "Facebook Pixel — ad measurement",
+          "Criteo — retargeting ads",
+          "Mixpanel — product interaction analytics"
+        ]
+      },
+      amazon: {
+        url: "https://www.amazon.com",
+        tech: [
+          "Amazon Advertising (first-party) — recommendation & ad delivery",
+          "Google Ads / DoubleClick — display advertising",
+          "Amazon DSP — programmatic ad placements",
+          "Proprietary telemetry — personalization & recommendations"
+        ]
+      }
+    };
+
+    // Example use: log to console with URLs
+    console.log("Tracking technologies by site with URLs:", trackingTechnologies);
+  </script>
+</body>
+</html>
